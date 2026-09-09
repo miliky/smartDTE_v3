@@ -1,0 +1,15 @@
+# Datos privados y configuración de cada instalación.
+/Documentos/
+/Descargas/
+/build/
+/config.conf
+*.db
+*.db-*
+*.db.*
+*.sqlite
+*.sqlite3
+*.bak
+*.log
+__pycache__/
+Thumbs.db
+Desktop.ini
