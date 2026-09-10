@@ -29,9 +29,18 @@ a importar los DTE. `Diagnosticar.cmd` permite comprobar la instalación.
   coincidencia suficiente permanecen pendientes para selección manual.
 - Exportación de contactos con departamento y distrito.
 
-Código fuente de esta distribución: commit `74348dc`.
-Compilación: `20260909-021303-804489`. Verificada con la prueba de instalación
-del ejecutable, 56 pruebas de migración/flujos fiscales y 53 de interfaz.
+## Actualización de formularios — 9 de septiembre de 2026
+
+- Departamento, municipio, ambiente, establecimiento y actividad por nombre.
+- Municipio antes de distrito en contactos; distrito alineado en facturación.
+- Listas de tipo de ítem, unidad, estado y clasificación de renta en inventario.
+- Descuento e IVA del inventario ocultos, conservando los valores guardados.
+- País F14 y clasificaciones por nombre, también en compras físicas e ISR.
+
+Código fuente de esta distribución: commit `41427d9`.
+Compilación: `20260909-194827-142099`. Incluye las pruebas de interfaz, guardado,
+permisos, renta, ISR, ventas y migración geográfica, además de la verificación
+de instalación del ejecutable. Revisión visual en temas claro y oscuro.
 
 Este repositorio inicia el historial de la versión 3. Los datos privados de los
 usuarios no forman parte de la distribución.
