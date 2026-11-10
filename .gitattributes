@@ -1,6 +1,2 @@
+# Conservar exactamente los bytes publicados y sus huellas SHA-256.
 * -text
-_internal/** binary
-*.md text eol=lf
-.gitignore text eol=lf
-.gitattributes text eol=lf
-*.cmd text eol=crlf
